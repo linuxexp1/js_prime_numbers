@@ -1,21 +1,25 @@
-<!DOCTYPEhtml>
-<html>
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeros Primos</title>
     <head>
         <link rel="shortcut icon" href="#">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
-<body>
-    <div class="container text-center">
-        <h1>JS algoritmo para números primos.</h1>
-        <form id="first">
-            Ingrese un número entero: 
-            <input type="number" name="fname" id="input_id"/>
-            <div>
-                <input type="submit" value="¿Es Primo?" id="btn_chequea_primo"/>
-                <input type="submit" value="Listado de Primos.." id="btn_lista_primos" />
-            </div>
-        </form>
-    </div>
-    <script src="../index.js"></script>    
-</body>
+    <body>
+        <div class="container text-center">
+            <h1>JS algoritmo para números primos.</h1>
+            <form id="first">
+                Ingrese un número entero: 
+                <input type="number" name="fname" id="input_id"/>
+                <div class="p-2">
+                    <input type="submit" value="¿Es Primo?" id="btn_chequea_primo"/>
+                    <input type="submit" value="Lista los Nos. Primos" id="btn_lista_primos" />
+                    <input type="submit" value="Lista Factores Primos" id="btn_factores_primos" />
+                </div>
+            </form>
+        </div>
+        <script src="../index.js"></script>    
+    </body>
 </html>
